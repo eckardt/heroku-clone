@@ -1,0 +1,1 @@
+require 'clone/heroku/command/apps'
