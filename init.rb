@@ -1,1 +1,1 @@
-require 'clone/heroku/command/apps'
+require 'clone/heroku/command/clone'

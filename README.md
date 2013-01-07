@@ -26,7 +26,7 @@ You'll start with an existing app which has some custom config variables and col
 
 Now, creating an exact copy of this app is easy
 
-    $ heroku apps:clone
+    $ heroku clone:create
     Creating dry-oasis-7199-clone-19b3... done, stack is cedar
     http://dry-oasis-7199-clone-19b3.herokuapp.com/ | git@heroku.com:dry-oasis-7199-clone-19b3.git
     Copying someone@company.com to dry-oasis-7199-clone-19b3 collaborators... done
