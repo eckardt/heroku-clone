@@ -12,7 +12,8 @@ Add the heroku gem plugin:
 
 ## Usage
 
-    # You'll start with an existing app which has some custom config variables and collaborators set
+You'll start with an existing app which has some custom config variables and collaborators set
+
     $ heroku apps:create
     Creating dry-oasis-7199... done, stack is cedar
     http://dry-oasis-7199.herokuapp.com/ | git@heroku.com:dry-oasis-7199.git
@@ -23,14 +24,16 @@ Add the heroku gem plugin:
     Setting config vars and restarting dry-oasis-7199... done, v3
     FOO: bar
 
-    # Now, creating an exact copy of this app is easy
+Now, creating an exact copy of this app is easy
+
     $ heroku apps:clone
     Creating dry-oasis-7199-clone-19b3... done, stack is cedar
     http://dry-oasis-7199-clone-19b3.herokuapp.com/ | git@heroku.com:dry-oasis-7199-clone-19b3.git
     Copying someone@company.com to dry-oasis-7199-clone-19b3 collaborators... done
     Copying config vars from dry-oasis-7199 and restarting dry-oasis-7199-clone-19b3... done, v3
 
-    # You can use the new app as a staging server or for quickly trying out another branch
+You can use the new app as a staging server or for quickly trying out another branch
+
     $ git push git@heroku.com:dry-oasis-7199-clone-19b3.git new-feature-which-needs-to-be-tested:master
     [...]
     -----> Launching... done, v6
