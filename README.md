@@ -1,4 +1,4 @@
-# heroku-clone
+# heroku-clone [![Build Status](https://travis-ci.org/eckardt/heroku-clone.png?branch=master)](https://travis-ci.org/eckardt/heroku-clone)
 
 Allows you to quickly create new heroku apps as clones of existing apps together with the list of collaborators and config variables.
 
